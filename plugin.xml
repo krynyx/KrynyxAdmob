@@ -28,12 +28,7 @@
         <config-file target="AndroidManifest.xml" parent="/manifest">
 			<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 		</config-file>
-		
-		<config-file target="AndroidManifest.xml" parent="/manifest/application">
-            <meta-data android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-7430707781440027~4051472482"/>
-		</config-file>
-        
+        		
 		<config-file file="app/src/main/AndroidManifest.xml" mode="merge" target="/manifest/application">
 			<application android:usesCleartextTraffic="true" />
 		</config-file>
